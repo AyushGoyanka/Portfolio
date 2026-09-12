@@ -1,0 +1,29 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="54" y1="8" x2="748" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#311442"/>
+      <stop offset=".48" stop-color="#171027"/>
+      <stop offset="1" stop-color="#0C0B14"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="246" y1="145" x2="556" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F098E9"/>
+      <stop offset=".52" stop-color="#BC5EE5"/>
+      <stop offset="1" stop-color="#795FF0"/>
+    </linearGradient>
+    <filter id="blur" x="122" y="0" width="556" height="500" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" rx="42" fill="url(#bg)"/>
+  <ellipse cx="410" cy="248" rx="188" ry="150" fill="#A941D0" fill-opacity=".16" filter="url(#blur)"/>
+  <g opacity=".22">
+    <circle cx="104" cy="88" r="3" fill="#F1D8FF"/><circle cx="692" cy="92" r="3" fill="#F1D8FF"/><circle cx="728" cy="362" r="3" fill="#F1D8FF"/><circle cx="91" cy="394" r="3" fill="#F1D8FF"/>
+    <path d="M60 159c112 63 195 58 287-13 89-69 187-76 391 9" stroke="#C579EF"/>
+    <path d="M51 356c111-58 207-55 309 8 106 66 205 56 387-33" stroke="#8B72F4"/>
+  </g>
+  <path d="M252 330V174l78 93 74-93 74 93 74-93v156" stroke="url(#mark)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M252 330h300" stroke="#E9B3F9" stroke-opacity=".45" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="252" cy="174" r="9" fill="#F5B0ED"/><circle cx="404" cy="174" r="9" fill="#CD7AF0"/><circle cx="552" cy="174" r="9" fill="#8A78F6"/>
+  <text x="400" y="434" fill="#F8F3FB" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="700" text-anchor="middle" letter-spacing="1">MORROW STUDIO</text>
+  <text x="400" y="468" fill="#AD9EB8" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" text-anchor="middle" letter-spacing="4">DESIGNING WHAT'S NEXT</text>
+</svg>

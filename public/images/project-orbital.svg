@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="32" fill="#88AFFF"/>
+  <circle cx="116" cy="652" r="180" fill="#759DEE"/>
+  <rect x="86" y="72" width="1028" height="616" rx="18" fill="#F8FAFD"/>
+  <rect x="86" y="72" width="214" height="616" rx="18" fill="#1D2230"/>
+  <circle cx="129" cy="117" r="17" fill="#88AFFF"/><path d="M121 117h16M129 109v16" stroke="#1D2230" stroke-width="3" stroke-linecap="round"/>
+  <text x="157" y="123" fill="white" font-family="Arial" font-size="18" font-weight="700">orbital</text>
+  <text x="120" y="188" fill="#697080" font-family="Arial" font-size="11">WORKSPACE</text><rect x="120" y="214" width="144" height="42" rx="8" fill="#292F3F"/><circle cx="140" cy="235" r="7" fill="#88AFFF"/><text x="157" y="240" fill="#E9EDF7" font-family="Arial" font-size="12">Product team</text>
+  <rect x="120" y="284" width="112" height="9" rx="4.5" fill="#3B4252"/><rect x="120" y="326" width="90" height="9" rx="4.5" fill="#3B4252"/><rect x="120" y="368" width="125" height="9" rx="4.5" fill="#3B4252"/>
+  <text x="344" y="126" fill="#242936" font-family="Arial" font-size="24" font-weight="700">Monday, 16 June</text><text x="344" y="153" fill="#8A909B" font-family="Arial" font-size="13">Your team has 5 priorities this week.</text>
+  <circle cx="1017" cy="121" r="22" fill="#DFE8FA"/><circle cx="998" cy="121" r="22" fill="#BDD0F5"/><circle cx="979" cy="121" r="22" fill="#92AEDE"/>
+  <rect x="344" y="201" width="326" height="198" rx="14" fill="#E9F0FF"/><text x="370" y="237" fill="#6E83A9" font-family="Arial" font-size="11">WEEKLY FOCUS</text><text x="370" y="278" fill="#252B37" font-family="Arial" font-size="20" font-weight="700">Launch the new dashboard</text><text x="370" y="306" fill="#737B8A" font-family="Arial" font-size="13">Design review is ready for the team.</text><rect x="370" y="342" width="178" height="9" rx="4.5" fill="#CFDAEF"/><rect x="370" y="342" width="121" height="9" rx="4.5" fill="#759DEE"/><text x="575" y="350" fill="#5F697A" font-family="Arial" font-size="11">68%</text>
+  <rect x="694" y="201" width="374" height="198" rx="14" fill="#252B38"/><text x="720" y="237" fill="#8891A3" font-family="Arial" font-size="11">TEAM PULSE</text><text x="720" y="285" fill="white" font-family="Arial" font-size="34" font-weight="700">On track</text><circle cx="1004" cy="267" r="30" fill="#C9FF4F"/><path d="m991 267 9 9 18-20" stroke="#252B38" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="720" y="340" fill="#AAB0BB" font-family="Arial" font-size="13">8 updates · 2 decisions · 1 blocker</text>
+  <text x="344" y="455" fill="#242936" font-family="Arial" font-size="16" font-weight="700">Today</text>
+  <rect x="344" y="479" width="724" height="70" rx="12" fill="white" stroke="#E4E8EE"/><circle cx="378" cy="514" r="14" fill="#FFE2D8"/><rect x="406" y="500" width="175" height="9" rx="4.5" fill="#777F8C"/><rect x="406" y="520" width="269" height="8" rx="4" fill="#D5D9E0"/><rect x="956" y="506" width="80" height="17" rx="8.5" fill="#E9F0FF"/>
+  <rect x="344" y="565" width="724" height="70" rx="12" fill="white" stroke="#E4E8EE"/><circle cx="378" cy="600" r="14" fill="#DDE6FF"/><rect x="406" y="586" width="142" height="9" rx="4.5" fill="#777F8C"/><rect x="406" y="606" width="235" height="8" rx="4" fill="#D5D9E0"/><rect x="956" y="592" width="80" height="17" rx="8.5" fill="#F1F3F6"/>
+</svg>

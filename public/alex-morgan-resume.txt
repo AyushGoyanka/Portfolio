@@ -1,0 +1,48 @@
+Ayush Goyanka
++91 9691775183
+ayushgoyanka51@gmail.com
+LinkedIn: https://www.linkedin.com/in/ayush-goyanka-731aa4293/
+GitHub: https://github.com/AyushGoyanka
+
+Education
+Lakshmi Narain College of Technology (LNCT), Bhopal
+Sep. 2023 – May 2027
+Bachelor of Technology in Computer Science and Engineering
+CGPA: 8.90/10
+Coursework: Data Structures & Algorithms, DBMS, Object-Oriented Programming, Operating Systems, Computer Networks, Design & Analysis of Algorithms
+
+Experience
+PricewaterhouseCoopers (PwC)
+Feb. 2026 – June 2026
+Launchpad Program Participant
+India (Remote)
+- Selected for PwC’s Launchpad Program, gaining exposure to emerging technologies, professional development, and industry best practices.
+- Applied Java programming and web development fundamentals to implement interactive applications, reinforcing software engineering and coding best practices.
+- Leveraged fundamental Generative AI concepts and core Cybersecurity principles to develop secure and responsible applications.
+
+Projects
+AlgoQuest Visualizer | HTML, CSS, JavaScript, React.js, p5.js | GitHub
+- Engineered an interactive algorithm visualizer with real-time animations, integrating an AI-powered chatbot to answer user queries and dynamically explain algorithmic logic.
+- Designed graph data structures, implemented traversal algorithms, optimized canvas-based rendering, and integrated event-driven UI interactions to enhance algorithm learning and user experience.
+
+Nexus Chat | React.js, JavaScript, Node.js, Express.js, MongoDB, Socket.IO | GitHub
+- Developed a full-stack real-time chat application supporting private and group messaging using Socket.IO, enabling low-latency bidirectional communication for multiple concurrent users.
+- Built RESTful APIs using Node.js and Express.js, integrating MongoDB for efficient storage and retrieval of user and chat data.
+
+Technical Skills
+Programming Languages: Java, JavaScript
+Technologies/Frameworks: HTML, CSS, Node.js, Express, React, REST API’s, Socket.IO, Generative AI
+Databases: MongoDB, MySQL
+Developer Tools: Git, GitHub, Visual Studio Code
+
+Achievements
+- Selected as a contributor in JWOC (JUCE Winter of Code 2025) for consistent open-source contributions, and completed the program with certification.
+- Participated in Flipkart Grid 6.0, gaining hands-on experience in solving real-world engineering and problem-solving challenges.
+- Participated in Smart India Hackathon (SIH), collaborating with a team to develop an innovative solution for a real-world problem.
+- Solved 400+ problems on LeetCode, demonstrating strong analytical thinking, problem-solving expertise, and proficiency in data structures and algorithms.
+- Achieved Silver Badge in Problem Solving on HackerRank, reflecting consistent algorithmic practice.
+
+Extracurricular
+- Awarded the Reliance Foundation Scholarship, a merit-based scholarship recognizing academic excellence among engineering students across India.
+- Team Collaboration: Collaborated effectively on team projects, strengthening communication, problem-solving, and project management skills.
+- Public Speaking: Delivered technical presentations, enhancing communication, confidence, and presentation skills.
