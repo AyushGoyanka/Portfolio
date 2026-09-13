@@ -122,7 +122,7 @@ export const portfolioData = {
     footerQuote: '',
     heroImage: 'images/developer-ai-workspace.png',
     heroImageAlt: '',
-    resumeUrl: 'alex-morgan-resume.txt',
+    resumeUrl: 'public/Resume_AyushGoyanka.pdf',
   },
   navigation: [
     { id: 'home', label: 'Home', href: '#/', page: 'home', icon: 'home' },
