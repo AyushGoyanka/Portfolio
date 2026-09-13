@@ -3,8 +3,8 @@
  *
  * Keep presentation and interaction logic in components; keep editable copy,
  * links, images, and collection entries here. Array order is display order.
- * Files placed in `public/` are referenced with root-relative paths such as
- * `/images/example.svg`.
+ * Files placed in `public/` are referenced with relative paths such as
+ * `images/example.svg`.
  */
 
 /** @typedef {'home' | 'skills' | 'portfolio' | 'experience'} PageId */
@@ -17,9 +17,9 @@
  * @property {string} email Contact email used by navigation.
  * @property {string} about About-section biography.
  * @property {string} footerQuote Short statement displayed above the footer.
- * @property {string} heroImage Root-relative hero artwork path.
+ * @property {string} heroImage Relative hero artwork path.
  * @property {string} heroImageAlt Meaningful hero artwork description.
- * @property {string} resumeUrl Root-relative file path or full hosted PDF URL.
+ * @property {string} resumeUrl Relative file path or full hosted PDF URL.
  */
 
 /**
@@ -63,7 +63,7 @@
  * @property {string} title
  * @property {string} type
  * @property {string} description
- * @property {string} [image] Root-relative image path.
+ * @property {string} [image] Relative image path.
  * @property {string} [alt] Meaningful image description.
  * @property {string[]} [technologies]
  * @property {string} [github] Optional source-code URL.
@@ -120,9 +120,9 @@ export const portfolioData = {
     about:
       'Bachelor of Technology in Computer Science and Engineering at Lakshmi Narain College of Technology (LNCT), Bhopal, with a CGPA of 8.90/10. Interested in software engineering, web development, Generative AI, and Cybersecurity.',
     footerQuote: '',
-    heroImage: '/images/developer-ai-workspace.png',
+    heroImage: 'images/developer-ai-workspace.png',
     heroImageAlt: '',
-    resumeUrl: '/alex-morgan-resume.txt',
+    resumeUrl: 'alex-morgan-resume.txt',
   },
   navigation: [
     { id: 'home', label: 'Home', href: '#/', page: 'home', icon: 'home' },
@@ -207,7 +207,7 @@ export const portfolioData = {
       type: 'HTML, CSS, JavaScript, React.js, p5.js',
       description:
         'Engineered an interactive algorithm visualizer with real-time animations, integrating an AI-powered chatbot to answer user queries and dynamically explain algorithmic logic. Designed graph data structures, implemented traversal algorithms, optimized canvas-based rendering, and integrated event-driven UI interactions to enhance algorithm learning and user experience.',
-      image: '/images/project-northstar.svg',
+      image: 'images/project-northstar.svg',
       alt: 'AlgoQuest Visualizer',
       technologies: ['HTML', 'CSS', 'JavaScript', 'React.js', 'p5.js'],
       github: 'https://github.com/yourusername/GraphVisualizer',
@@ -219,7 +219,7 @@ export const portfolioData = {
       type: 'React.js, JavaScript, Node.js, Express.js, MongoDB, Socket.IO',
       description:
         'Developed a full-stack real-time chat application supporting private and group messaging using Socket.IO, enabling low-latency bidirectional communication for multiple concurrent users. Built RESTful APIs using Node.js and Express.js, integrating MongoDB for efficient storage and retrieval of user and chat data.',
-      image: '/images/project-aperture.svg',
+      image: 'images/project-aperture.svg',
       alt: 'Nexus Chat',
       technologies: ['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
       github: 'https://github.com',
