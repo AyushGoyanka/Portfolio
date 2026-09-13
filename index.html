@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Alex Morgan, a product-minded software engineer creating thoughtful digital experiences." />
+    <meta name="theme-color" content="#101113" />
+    <script>
+      // Set the saved theme before first paint so the loader and app always agree.
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem('portfolio-theme');
+          const theme = savedTheme === 'light' || savedTheme === 'dark'
+            ? savedTheme
+            : matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+          document.querySelector('meta[name="theme-color"]')?.setAttribute(
+            'content',
+            theme === 'light' ? '#f7f3fa' : '#0e0c16',
+          );
+        } catch {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+    <style>#app-loader{z-index:9999;color:#f8f5fb;opacity:0;background:radial-gradient(circle at 18% 22%,#9741d338,#0000 27%),radial-gradient(circle at 82% 78%,#5345c42e,#0000 29%),#0e0c16;place-content:center;justify-items:center;font-family:Manrope,system-ui,sans-serif;animation:.35s .16s forwards loader-reveal;display:grid;position:fixed;inset:0;overflow:hidden}#app-loader:before{content:"";opacity:.52;background-image:radial-gradient(circle at 15% 26%,#ffffffa6 0 1px,#0000 1.5px),radial-gradient(circle at 72% 18%,#ca89f58c 0 1px,#0000 1.5px),radial-gradient(circle at 84% 68%,#ffffff73 0 1px,#0000 1.5px),radial-gradient(circle at 32% 82%,#a77ff280 0 1px,#0000 1.5px);background-size:230px 210px,270px 250px,190px 230px,250px 270px;animation:8s linear infinite loader-stars;position:absolute;inset:0}.app-loader__visual{width:112px;height:112px;position:relative}.app-loader__ring{border:1px solid #d38af652;border-top-color:#d27af5;border-radius:50%;animation:2.2s linear infinite loader-spin;position:absolute;inset:8px;box-shadow:0 0 28px #aa4fdc21}.app-loader__ring--inner{border-color:#7c6fe742 #8f7ae8 #7c6fe742 #7c6fe742;animation-duration:1.65s;animation-direction:reverse;inset:20px}.app-loader__core{color:#e3a0ff;background:linear-gradient(145deg,#713097c7,#38256ac2);border:1px solid #dfa9fa42;border-radius:17px;place-items:center;animation:1.8s ease-in-out infinite loader-core;display:grid;position:absolute;inset:27px;overflow:hidden;box-shadow:0 14px 35px #06030f52,inset 0 1px #ffffff1c}.app-loader__core:before{content:"";background:linear-gradient(135deg,#ffffff14,#0000 46%);border:1px solid #eec8ff17;border-radius:12px;position:absolute;inset:5px}.app-loader__code{z-index:1;filter:drop-shadow(0 0 7px #d67efb7a);width:42px;height:42px;position:relative;overflow:visible}.app-loader__brackets{stroke-dasharray:34;animation:2.15s ease-in-out infinite loader-code-draw}.app-loader__slash{transform-origin:50%;animation:1.7s ease-in-out infinite loader-code-slash}.app-loader__spark{transform-box:fill-box;transform-origin:50%;animation:1.45s ease-in-out infinite loader-code-spark}.app-loader__message{color:#aaa3b1;letter-spacing:.08em;margin:18px 0 0;font-size:.62rem;position:relative}.app-loader__retry{color:inherit;letter-spacing:.06em;cursor:pointer;background:#9d47c621;border:1px solid #ca7bf161;border-radius:999px;margin-top:18px;padding:8px 15px;font:700 .66rem/1 Manrope,system-ui,sans-serif;position:relative}.app-loader__retry:hover,.app-loader__retry:focus-visible{background:#9d47c63d;border-color:#cf7af2;outline:none}#app-loader.app-loader--leaving{visibility:hidden;opacity:0;pointer-events:none;transition:opacity .32s,visibility 0s linear .32s;animation:none}:root[data-theme=light] #app-loader{color:#2d2133;background:radial-gradient(circle at 18% 22%,#9d4bc929,#0000 29%),radial-gradient(circle at 82% 78%,#5b52cc21,#0000 30%),#f7f3fa}:root[data-theme=light] .app-loader__core{color:#71338f;background:linear-gradient(145deg,#ffffffeb,#e5d6eff0);border-color:#7f3b9d33;box-shadow:0 14px 35px #482a5524,inset 0 1px #fff}:root[data-theme=light] .app-loader__message{color:#716777}:root[data-theme=light] .app-loader__retry{background:#8f40b314;border-color:#70328c3d}@keyframes loader-reveal{to{opacity:1}}@keyframes loader-spin{to{transform:rotate(360deg)}}@keyframes loader-core{50%{transform:scale(1.06)rotate(2deg)}}@keyframes loader-code-draw{0%,12%{opacity:.35;stroke-dashoffset:34px}45%,78%{opacity:1;stroke-dashoffset:0}to{opacity:.35;stroke-dashoffset:-34px}}@keyframes loader-code-slash{50%{opacity:.62;transform:translate(1px)}}@keyframes loader-code-spark{50%{opacity:.38;transform:scale(1.75)}}@keyframes loader-stars{50%{transform:translate(8px,-6px)}}@media (prefers-reduced-motion:reduce){#app-loader{animation-duration:1ms}#app-loader.app-loader--leaving{transition-duration:1ms}#app-loader:before,.app-loader__ring,.app-loader__core,.app-loader__brackets,.app-loader__slash,.app-loader__spark{animation:none}}</style>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" /></noscript>
+    <title>Alex Morgan — Software Engineer</title>
+    <script type="module" crossorigin src="/assets/index-DGrqtdAy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cj7I3aYn.css">
+  </head>
+  <body>
+    <noscript><style>#app-loader{display:none}</style>You need JavaScript enabled to view this portfolio.</noscript>
+    <div id="app-loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+      <div class="app-loader__visual" aria-hidden="true">
+        <span class="app-loader__ring"></span>
+        <span class="app-loader__ring app-loader__ring--inner"></span>
+        <span class="app-loader__core">
+          <svg class="app-loader__code" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="loader-code-gradient" x1="7" y1="8" x2="34" y2="31" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#f0b6ff" />
+                <stop offset="0.52" stop-color="#d06ff4" />
+                <stop offset="1" stop-color="#8b80f2" />
+              </linearGradient>
+            </defs>
+            <path class="app-loader__brackets" d="M14 12.5 6.5 20l7.5 7.5M26 12.5l7.5 7.5-7.5 7.5" stroke="url(#loader-code-gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <path class="app-loader__slash" d="m23.5 8.5-7 23" stroke="#f5d7ff" stroke-width="2.5" stroke-linecap="round" />
+            <circle class="app-loader__spark" cx="31.5" cy="8" r="1.6" fill="#bda5ff" />
+          </svg>
+        </span>
+      </div>
+      <p class="app-loader__message" hidden>This is taking longer than expected.</p>
+      <button class="app-loader__retry" type="button" hidden>Reload page</button>
+    </div>
+    <div id="root"></div>
+    <script>
+      // Fail-safe: replace endless motion with a clear recovery action.
+      window.setTimeout(() => {
+        const loader = document.getElementById('app-loader');
+        if (!loader || loader.classList.contains('app-loader--leaving')) return;
+        loader.querySelector('.app-loader__message').hidden = false;
+        const retry = loader.querySelector('.app-loader__retry');
+        retry.hidden = false;
+        retry.addEventListener('click', () => window.location.reload(), { once: true });
+      }, 8000);
+    </script>
+  </body>
+</html>
